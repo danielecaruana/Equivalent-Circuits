@@ -94,7 +94,7 @@ plt.ylabel(r"$\varepsilon_{Methanol}$ / $\mathrm{F} \ m^{-1}$")
 formatter = mticker.ScalarFormatter(useMathText=True)
 ax_methanol.xaxis.set_major_formatter(formatter)
 plt.legend()
-plt.savefig('methanol.pdf')
+plt.savefig('methanol.png')
 plt.show()
 
 # Plotting graph - NaCl
@@ -120,7 +120,7 @@ plt.ylabel(r"$\varepsilon_{NaCl}$ / $\mathrm{F} \ m^{-1}$")
 formatter = mticker.ScalarFormatter(useMathText=True)
 ax_nacl.xaxis.set_major_formatter(formatter)
 plt.legend()
-plt.savefig('nacl.pdf')
+plt.savefig('nacl.png')
 plt.show()
 
 print("Debug")
